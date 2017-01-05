@@ -1,0 +1,35 @@
+.card {
+    position: relative;
+    height: 30px;
+    width: 100px;
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: antiquewhite;
+}
+
+.spacer {
+    height: 20px;
+}
+.left {
+    font-size: 20px;
+    float: left;
+    padding-left: 8px;
+}
+
+.right {
+    font-size: 20px;
+    float: right;
+    padding-right: 8px;
+}
+
+ul {
+    display: table-row;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    display: table-cell;
+    padding-right: 5px;
+}
